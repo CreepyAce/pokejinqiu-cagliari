@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+ul a{
+    text-decoration: none;
+    width: 100%;
+    list-style: none;
+}
+.background{
+    max-width: 100px;
+    max-height:100px;
+    padding: 20px;
+}
+.navbar{
+   background-color: rgb(29, 145, 29);
+   align-items: center;
+   display: flex;
+   background-image: url(poke3.jpg);
+   animation: slide 15s infinite;
+}
+nav{
+    flex: 1;
+    text-align: center;
+}
+nav ul li{
+    display: inline-block;
+    margin: 50px;
+}
+.nobg{
+    max-width: 100px;
+    max-height:100px;
+    padding: 20px;
+    
+}
+h1{
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+}
+.delivero{
+    color: transparent;
+    border: 2px solid blue;
+    padding: 20px;
+    border-radius: 6px;
+    font-weight: bolder;
+    background-image: url(delivero.png);
+    background-position: center;
+    background-size: cover;
+}
+.justeat{
+    color: transparent;
+    border: 2px solid blue;
+    padding: 20px;
+    border-radius: 6px;
+    font-weight: bolder;
+    background-image: url(just\ eat2.png);
+    background-position: center;
+    background-size: cover;
+}
+.glovo{
+    color: transparent;
+    border: 2px solid blue;
+    padding: 20px;
+    border-radius: 6px;
+    font-weight: bolder;
+    background-image: url(glovo.webp);
+    background-position: center;
+    background-size: cover;
+}
+.whatsapp{
+    color: rgb(1, 1, 1);
+    border: 2px solid blue;
+    padding: 20px;
+    border-radius: 6px;
+    font-weight: bolder;
+    background-image: url(pngtree-whatsapp-icon-png-image_6315990.png);
+    background-position: center;
+    background-size: cover;
+}
+
+@keyframes slide {
+    35%{
+        background-image: url(poke\ 3.jpg);
+    }
+    70%{
+        background-image: url(poke\ 2.jpg);
+    
+    } 
+    100%{
+        background-image: url(POKE\ 01.jpg);
+    }
+}
+@media { min-width: 800px;
+.delivero{
+    align-items: center;
+    flex-direction: column;
+    margin-right: 450px;
+}
+}
+
